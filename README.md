@@ -7,16 +7,17 @@
 <p align="center">
   <b>InventraFlow — Enterprise Inventory Operations Platform</b><br>
   A modern ERP-style system for managing warehouse inventory, stock movement, and logistics workflows.
-
-
-
- ![License](https://img.shields.io/badge/license-MIT-green)
- ![Python](https://img.shields.io/badge/backend-Python-blue) 
- ![Flask](https://img.shields.io/badge/framework-Flask-black)
- ![Firebase](https://img.shields.io/badge/authentication-Firebase-orange)
- ![Status](https://img.shields.io/badge/status-Active-success)
- ![Hackathon](https://img.shields.io/badge/built%20for-Hackathon-purple)
-
+  
+  Try it :- https://inventraflow.onrender.com 
+  
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-green" />
+  <img src="https://img.shields.io/badge/backend-Python-blue" />
+  <img src="https://img.shields.io/badge/framework-Flask-black" />
+  <img src="https://img.shields.io/badge/authentication-Firebase-orange" />
+  <img src="https://img.shields.io/badge/status-Active-success" />
+  <img src="https://img.shields.io/badge/built%20for-Hackathon-purple" />
 </p>
 
 ---
@@ -267,18 +268,16 @@ InventraFlow uses a modular architecture designed for scalable inventory platfor
 ```
 InventraFlow
 │
-├── frontend
-│   ├── dashboard
-│   ├── products
-│   ├── operations
-│   └── components
+├── app.py
+├── templates
+│ ├── login.html
+│ ├── signup.html
+│ └── dashboard.html
 │
-├── backend
-│   ├── routes
-│   ├── services
-│   └── models
-│
-├── database
+├── static
+│ ├── js
+│ ├── css
+│ └── images
 │
 ├── assets
 │
@@ -286,6 +285,14 @@ InventraFlow
 ```
 
 ---
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/inventraflow.git
+cd inventraflow
+```
 
 # Target Users
 
