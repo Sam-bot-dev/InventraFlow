@@ -1,4 +1,7 @@
-# InventraFlow
+<h1>
+  <img src="static/odoo.jpeg" width="40" style="vertical-align:middle;">
+  InventraFlow
+</h1>
 
 <p align="center">
   <b>InventraFlow — Enterprise Inventory Operations Platform</b><br>
