@@ -7,6 +7,11 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Sign In - InventraFlow</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
+    <script src="{{ url_for('static', filename='js/firebase.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/login.js') }}"></script>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&amp;display=swap"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap"
@@ -114,16 +119,16 @@
                     </label>
                 </div>
                 <!-- Sign In Button -->
-                <button
-                    class="w-full py-3 px-4 bg-primary hover:bg-opacity-90 text-white font-bold rounded-lg shadow-md transition-all flex items-center justify-center gap-2"
-                    type="submit">
+                <button type="button" onclick="login()"
+                    class="w-full py-3 px-4 bg-primary hover:bg-opacity-90 text-white font-bold rounded-lg shadow-md transition-all flex items-center justify-center gap-2">
                     <span class="material-symbols-outlined text-xl">login</span>
                     Sign In
                 </button>
             </form>
             <div class="mt-8 pt-6 border-t border-slate-100 dark:border-slate-800 text-center">
                 <p class="text-sm text-slate-500 dark:text-slate-400">
-                    Don't have an account? <a class="text-primary font-semibold hover:underline" href="signup">Sign_up</a>
+                    Don't have an account? <a class="text-primary font-semibold hover:underline"
+                        href="/signup">Sign_up</a>
                 </p>
             </div>
         </div>
