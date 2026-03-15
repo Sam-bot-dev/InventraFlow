@@ -14,3 +14,4 @@ def dashboard():
     return render_template('main.html')
 if __name__ == "__main__":
     app.run() # removed (debug=True) as i have it is gone for production...
+              # or use debug = False as keeping it true can cause dangerous issues..
