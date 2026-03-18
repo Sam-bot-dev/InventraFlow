@@ -42,6 +42,18 @@ The interface follows modern **ERP dashboard design patterns similar to Odoo, Zo
 
 # Dashboard
 
+<p align="center">
+  <img src="Assets/Inventra Flow 1.jpeg" width="900">
+</p>
+
+<p align="center">
+  <img src="Assets/Inventra Flow 2.jpeg" width="900">
+</p>
+
+<p align="center">
+  <img src="Assets/Inventra Flow 3.jpeg" width="900">
+</p>
+
 The **dashboard acts as the control center** of the system, displaying real-time insights into inventory operations.
 
 ### Dashboard KPIs
